@@ -124,6 +124,9 @@ The device and register headers are internal adaptation interfaces.
 ## Files
 
 ```text
+README.md
+LICENSE
+
 src/
   dspic33ak_clock.h
   dspic33ak_clock.c
@@ -298,3 +301,9 @@ demo bring-up ordering
 
 Use this standalone repository when you want the reusable PLL / CLKGEN HAL
 source without Starter application code.
+
+## License
+
+MIT No Attribution License (`MIT-0`).
+
+See [`LICENSE`](LICENSE).
