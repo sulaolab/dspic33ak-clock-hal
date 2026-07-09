@@ -1,7 +1,9 @@
 # dspic33ak-clock-hal
 
-Want to run it on hardware first?
-Start with `dspic33ak-hal-starter`.
+> Want to run it on hardware first?
+> Start with [dspic33ak-hal-starter](https://github.com/sulaolab/dspic33ak-hal-starter),
+> which vendors validated snapshots of the dsPIC33AK HAL repositories and
+> provides a ready-to-build MPLAB X project for the dsPIC33AK Curiosity board.
 
 `dspic33ak-clock-hal` is a small, readable PLL and CLKGEN HAL for Microchip
 dsPIC33AK devices. It accepts logical clock requests at the public API, keeps
@@ -19,13 +21,11 @@ It is not a turnkey board clock framework.
 
 ## Status
 
-Current publication state:
+Validated implementation:
 
-```text
-private staging branch
-validated source import
-not merged to standalone main
-```
+- Published on the standalone `main` branch.
+- Generic HAL source is byte-identical to the validated Perseus and Starter integrations.
+- Hardware integration is available in `dspic33ak-hal-starter`.
 
 Validated target:
 
@@ -237,7 +237,7 @@ Starter 7215105
         |
         | direct import
         v
-Standalone Clock HAL branch
+Standalone Clock HAL
 ```
 
 ### Perseus Validation
