@@ -23,10 +23,10 @@ Ready for coordinated three-way review:
 
 | Item | Value |
 |---|---|
-| Repository | `sulaolab/dspic33ak-clock-hal` |
+| Repository | `sulaolab/dspic33ak-hal-clock` |
 | Visibility | `PRIVATE` |
 | Default branch | `main` |
-| Local folder | `C:\00_storage\_Git_Work\vscode-home\dspic33ak-clock-hal` |
+| Local folder | `C:\00_storage\_Git_Work\vscode-home\dspic33ak-hal-clock` |
 | Initial `main` HEAD | `43b9f20381a3676c0dd86efa125d38882e5e23e3` |
 | `origin/main` HEAD | `43b9f20381a3676c0dd86efa125d38882e5e23e3` |
 | Initial main contents | Minimal bootstrap README only |
@@ -315,7 +315,7 @@ Three-way HAL source identity:
 
 | Item | Value |
 |---|---|
-| Repository | `sulaolab/dspic33ak-clock-hal` |
+| Repository | `sulaolab/dspic33ak-hal-clock` |
 | Visibility | `PRIVATE` |
 | Branch | `exp/clock-hal-standalone-bootstrap` |
 | Starting HEAD | `1665578cd1a4138171d399623113747c3d1ad678` |
@@ -408,7 +408,7 @@ The file was not rewritten for cosmetic reasons.
 Reference repository:
 
 ```text
-sulaolab/dspic33ak-i2c-hal
+sulaolab/dspic33ak-hal-i2c
 ```
 
 Blob comparison:
@@ -548,7 +548,7 @@ visibility change was performed.
 | SPDX official check | PASS |
 | OSI official check | PASS |
 | Repository LICENSE text verified | SEMANTIC MATCH WITH FORMATTING DIFFERENCE |
-| HAL-family license consistency | PASS, same blob as `sulaolab/dspic33ak-i2c-hal` |
+| HAL-family license consistency | PASS, same blob as `sulaolab/dspic33ak-hal-i2c` |
 | README License section added | PASS |
 | README top-level Files layout corrected | PASS |
 | Six HAL files unchanged | PASS |
